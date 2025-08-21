@@ -18,7 +18,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 TOKEN = "7790991731:AAF4NHGm0BJCf08JTdBaUWKzwfs82_Y9Ecw"
 ADMIN_ID = 6964068910
-WEBHOOK_URL = "https://seved-cods.onrender.com"
+WEBHOOK_URL = "https://tts-bot-1-d7ve.onrender.com"
 REQUIRED_CHANNEL = "@guruubka_wasmada"
 
 bot = telebot.TeleBot(TOKEN, threaded=True)
