@@ -20,7 +20,7 @@ logging.basicConfig(
 
 TOKEN = "7999849691:AAFNsufKPWU9YyW_CEp7_6BF5cClX8PvR0Y"
 ADMIN_ID = 6964068910
-WEBHOOK_URL = "miniature-joyann-wwmahe-0ba6e9df.koyeb.app/"
+WEBHOOK_URL = "https://tts-bot-lcn9.onrender.com"
 # If you want to disable the subscription/join prompt, set REQUIRED_CHANNEL to an empty string.
 REQUIRED_CHANNEL = "@guruubka_wasmada"
 
