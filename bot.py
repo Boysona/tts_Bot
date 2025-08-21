@@ -564,7 +564,7 @@ def start_handler(message):
     user_rate_input_mode[user_id_str] = None
 
     welcome_message = (
-        f"👋🏻 Hello! {user_first_name}! I am your AI voice assistant that converts text to audio for free! 🔊✍️\n\n"
+        f"👋🏻 Hello! {user_first_name}! I am your AI voice assistant that converts text to audio for free! \n\n"
         "✨ **Here's how to use it:**\n"
         "1. **Convert Text to Audio (TTS):**\n"
         "   - Choose the voice `/voice`\n"
