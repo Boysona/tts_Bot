@@ -247,7 +247,7 @@ WELCOME_TEMPLATE = (
     "Upload any media file (voice recordings, audio clips, or videos) up 20MB in size , in any language.\n\n"
     "Ensure the Output Language matches the language of your audio file for accurate transcription.\n\n"
     "Other useful bot: @Voice_maker_robot\n\n"
-    "Current Language: {lang_name} 🕒 My last update: 21/08/2025"
+    "🌐 Current Language: {lang_name}  My last update: 21/08/2025"
 )
 
 def check_subscription(user_id: int) -> bool:
