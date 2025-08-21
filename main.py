@@ -32,7 +32,7 @@ users_collection = db["users"]
 stt_settings_collection = db["stt_settings"]
 
 ASSEMBLYAI_API_KEY = "91f15c103dbd4b859466a29ee849e3ef"
-GEMINI_API_KEY = "AIzaSyCHrGhRKXAp3DuQGH8HLB60ggryZeUFA9E"
+GEMINI_API_KEY = "AIzaSyDpb3UvnrRgk6Fu61za_VrRN8byZRSyq_I"
 
 in_memory_data = {
     "users": {},
