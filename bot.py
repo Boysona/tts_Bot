@@ -564,13 +564,13 @@ def start_handler(message):
     user_rate_input_mode[user_id_str] = None
 
     welcome_message = (
-        f"👋🏻 Welcome! {user_first_name}! I am your AI voice assistant that converts text to audio for free! 🔊✍️\n\n"
+        f"👋🏻 Hello! {user_first_name}! I am your AI voice assistant that converts text to audio for free! 🔊✍️\n\n"
         "✨ **Here's how to use it:**\n"
         "1. **Convert Text to Audio (TTS):**\n"
         "   - Choose the voice `/voice`\n"
         "   - Adjust your voice `/pitch` or `/rate`\n"
         "   - Send me text, I will convert it to audio!\n\n"
-        " You can also add me to your groups - click the button below!"
+        " You can also add me to your groups - click the button below! 🕒 My last update: 21/08/2025"
     )
     markup = InlineKeyboardMarkup(row_width=1)
     markup.add(
