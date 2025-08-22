@@ -5,7 +5,7 @@ import requests
 # -----------------------------
 # CONFIG
 # -----------------------------
-TOKEN = "7999849691:AAFNsufKPWU9YyW_CEp7_6BF5cClX8PvR0Y"
+TOKEN = "8226637132:AAEEIjwkdJE6E4QPVH76unipCOQdKMJmeq0"
 WEBHOOK_URL = "https://tts-bot-lcn9.onrender.com"
 
 DISPLAY_NAME = "Text to Speech TTS"
