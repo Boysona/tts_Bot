@@ -35,10 +35,10 @@ def set_bot_info_and_startup():
             "• Choose your transcription language\n"
             "• Translate or summarize instantly with inline buttons\n"
             "• Completely free\n\n"
-            "Enjoy fast, accurate,transcriptions! Another useful bot: "
+            "Enjoy fast, accurate,transcriptions! Another useful bot: @TextToSpeechBBot"
         )
         bot.set_my_short_description(
-            "Transcribe, translate & summarize voice messages, audio files, and videos for free.\nNeed help? Contact: @kookabeela"
+            "Transcribe, translate & summarize voice messages, audio files, and videos for free.\n"
         )
         bot.delete_my_commands()
         logging.info("Bot info, description updated, and commands removed successfully.")
