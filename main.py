@@ -628,7 +628,7 @@ def handle_text_messages(message):
     if message.chat.type == 'private' and str(message.from_user.id) != str(ADMIN_ID) and not check_subscription(message.from_user.id):
         send_subscription_message(message.chat.id)
         return
-    bot.send_message(message.chat.id, "I don't do text→audio. For converting text to speech use: https://t.me/Voice_maker_robot")
+    bot.send_message(message.chat.id, "I don’t support text-to-voice. If you need text-to-voice, please use this bot: https://t.me/Voice_maker_robot")
 
 @bot.message_handler(func=lambda m: True, content_types=['sticker', 'photo'])
 def handle_unsupported_media_types(message):
