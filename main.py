@@ -454,7 +454,7 @@ async def process_stt_media(chat_id: int, user_id_for_settings: str, message_typ
                 f = io.BytesIO(text.encode("utf-8"))
                 f.name = "transcript.txt"
                 try:
-                    target_bot.send_document(chat_id, f, caption="The transcription was too 长: long to send as a message; use the buttons below to Translate or Summarize.", reply_to_message_id=original_message_id, reply_markup=markup)
+                    target_bot.send_document(chat_id, f, caption="Here’s your transcript", reply_to_message_id=original_message_id, reply_markup=markup)
                 except Exception as e:
                     logging.error(f"Failed to send transcript file with buttons: {e}")
                     try:
