@@ -16,7 +16,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-TOKEN = "8226637132:AAEEIjwkdJE6E4QPVH76unipCOQdKMJmeq0"
+TOKEN = "8281896922:AAEzRdF60SvTMyRba0ev4fzVvdY2ip-DStU"
 ADMIN_ID = 6964068910
 WEBHOOK_URL = "https://tts-bot-lcn9.onrender.com"
 REQUIRED_CHANNEL = "@guruubka_wasmada"
