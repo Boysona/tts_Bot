@@ -400,7 +400,7 @@ async def process_stt_media(chat_id: int, user_id_for_settings: str, message_typ
         processing_msg = target_bot.send_message(chat_id, "Processing...", reply_to_message_id=original_message_id)
         file_info = target_bot.get_file(file_id)
         if file_info.file_size and file_info.file_size > 20 * 1024 * 1024:
-            target_bot.send_message(chat_id, "⚠️ File too large. Maximum allowed: 20MB.", reply_to_message_id=original_message_id)
+            target_bot.send_message(chat_id, "⚠️ The file is too large. Please send one smaller than 20MB.", reply_to_message_id=original_message_id)
             return
         file_url = f"https://api.telegram.org/file/bot{TOKEN}/{file_info.file_path}"
         logging.info(f"Streaming file from Telegram: {file_url}")
@@ -473,7 +473,7 @@ async def process_stt_media(chat_id: int, user_id_for_settings: str, message_typ
         target_bot.send_message(chat_id, "❌ A network error occurred. Please try again.", reply_to_message_id=original_message_id)
     except Exception as e:
         logging.exception(f"Unhandled error during STT processing: {e}")
-        target_bot.send_message(chat_id, "⚠️ File too large. Maximum allowed: 20MB.", reply_to_message_id=original_message_id)
+        target_bot.send_message(chat_id, "⚠️ The file is too large. Please send one smaller than 20MB.", reply_to_message_id=original_message_id)
     finally:
         if processing_msg:
             try:
