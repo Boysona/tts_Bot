@@ -558,7 +558,7 @@ def start_handler(message):
         "   - Choose the voice `/voice`\n"
         "   - Adjust your voice `/pitch` or `/rate`\n"
         "   - Send me text, I will convert it to audio!\n\n"
-        " You can also add me to your groups - click the button below! 🕒 My last update: 21/08/2025"
+        " You can also add me to your groups - click the button below!"
     )
     markup = InlineKeyboardMarkup(row_width=1)
     markup.add(
