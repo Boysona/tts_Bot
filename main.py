@@ -1,4 +1,4 @@
-Fixed syntax error” sand me full bot.py code
+
 
 
 
