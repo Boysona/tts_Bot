@@ -32,7 +32,7 @@ def set_bot_info_and_startup():
         bot.set_my_description(
             "This bot transcribes voice messages, audio files, and videos into text. "
             "It can also translate and summarize results, and supports multiple languages.\n\n"
-            "• Send audio, voice notes, or video files up to 20MB\n"
+            "• Send audio, voice, or video files up to 20MB\n"
             "• Choose your transcription language\n"
             "• Translate or summarize instantly with buttons\n"
             "• Completely free\n\n"
@@ -40,7 +40,8 @@ def set_bot_info_and_startup():
             "Another useful bot: @TextToSpeechBBot"
         )
         bot.set_my_short_description(
-            "This bot can transcribe, summarize, and translate any media files for free. Another useful bot: @TextToSpeechBBot"
+            "This bot can transcribe, summarize, and translate any media files for free.\n
+            "Other useful bot: @TextToSpeechBBot"
         )
         bot.delete_my_commands()
         logging.info("Bot info, description updated, and commands removed successfully.")
