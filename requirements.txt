@@ -10,3 +10,4 @@ requests
 pyTelegramBotAPI
 Flask
 pymongo
+yt-dlp
