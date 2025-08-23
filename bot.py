@@ -552,13 +552,7 @@ def start_handler(message):
     user_pitch_input_mode[user_id_str] = None
     user_rate_input_mode[user_id_str] = None
     welcome_message = (
-        f"👋 Hello {user_first_name}! I am your AI voice assistant that converts text to audio for free! \n\n"
-        "✨ **Here's how to use it:**\n"
-        "1. **Convert Text to Audio (TTS):**\n"
-        "   - Choose the voice `/voice`\n"
-        "   - Adjust your voice `/pitch` or `/rate`\n"
-        "   - Send me text, I will convert it to audio!\n\n"
-        " You can also add me to your groups - click the button below!"
+        f"👋 Salaam {user_first_name}! send me a text written in any language, and I will convert it into a high-quality natural voice. Use /voice and choose the person who will read that text. You can find other commands in the Menu"
     )
     markup = InlineKeyboardMarkup(row_width=1)
     markup.add(
@@ -1092,10 +1086,10 @@ def delete_webhook_route():
 def set_bot_commands():
     commands = [
         BotCommand("start", "👋 Get Started"),
-        BotCommand("voice", "Choose a TTS voice"),
-        BotCommand("pitch", "Change TTS voice pitch"),
-        BotCommand("rate", "Change TTS voice speed"),
-        BotCommand("help", "Get How to use info"),
+        BotCommand("voice", "Choose a different voice"),
+        BotCommand("pitch", "Change voice pitch"),
+        BotCommand("rate", "Change voice speed"),
+        BotCommand("help", "❓help"),
     ]
     try:
         bot.set_my_commands(commands)
