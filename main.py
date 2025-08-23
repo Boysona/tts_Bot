@@ -31,9 +31,9 @@ def set_bot_info_and_startup():
         bot.set_my_name("Media to Text Bot")
         bot.set_my_description(
             "This bot transcribes audio, voice notes, and videos into text. It can also translates and summarizes Result it Supports multiple languages.\n\n"
-            "• Sand audio, voice massage, or video files (up to 500MB)\n"
+            "• Sand audio, voice note, or video files up to 20MB\n"
             "• Choose your transcription language\n"
-            "• Translate or summarize instantly with inline buttons\n"
+            "• Translate or summarize instantly with buttons\n"
             "• Completely free\n\n"
             "Enjoy fast, accurate,transcriptions! Another useful bot: @TextToSpeechBBot"
         )
