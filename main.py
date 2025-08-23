@@ -7,7 +7,7 @@ from flask import Flask, request
 # CONFIG
 # ==========================
 BOT_TOKEN = "7790991731:AAF4NHGm0BJCf08JTdBaUWKzwfs82_Y9Ecw"
-WEBHOOK_URL = "https://tts-bot-lcn9.onrender.com" + BOT_TOKEN  # Bedel URL-kan
+WEBHOOK_URL = "https://tts-bot-1-d7ve.onrender.com" + BOT_TOKEN  # Bedel URL-kan
 PORT = 8443
 
 bot = telebot.TeleBot(BOT_TOKEN)
