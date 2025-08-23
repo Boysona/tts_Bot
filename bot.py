@@ -593,7 +593,7 @@ def help_handler(message):
     user_pitch_input_mode[user_id] = None
     user_rate_input_mode[user_id] = None
     help_text = (
-        "📖 **How to use This Bot?**\n\n"
+        "ℹ️ **How to use This Bot?**\n\n"
         "This bot makes it easy to convert text to audio. Here's how it works:\n\n"
         "⸻\n"
         "**Convert Text to Audio (TTS):**\n"
@@ -603,11 +603,8 @@ def help_handler(message):
         "  • Use `/pitch` to increase or decrease the pitch,\n"
         "  • Use `/rate` to speed up or slow down the speech,\n\n"
         "⸻\n"
-        "**Your Data & Privacy:**\n"
-        "• **Your Data is Private:** The text and audio you send are not saved – they are used temporarily,\n"
-        "• **Your preferences are saved:** The voice, pitch, and rate you choose are saved until the bot restarts.\n\n"
-        "👉 Questions or problems? Contact @kookabeela\n\n"
-        "Enjoy creating audio! ✨"
+        "❔ Questions or problems? Contact @kookabeela\n\n"
+        "Enjoy @TextToSpeechBBot! ✨"
     )
     bot.send_message(message.chat.id, help_text, parse_mode="Markdown")
 
