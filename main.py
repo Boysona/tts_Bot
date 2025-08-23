@@ -40,7 +40,7 @@ def set_bot_info_and_startup():
             "Another useful bot: @TextToSpeechBBot"
         )
         bot.set_my_short_description(
-            "This bot can transcribe, summarize, and translate any media files for free.\n
+            "This bot can transcribe, summarize, and translate any media files for free.
             "Other useful bot: @TextToSpeechBBot"
         )
         bot.delete_my_commands()
