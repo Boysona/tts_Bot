@@ -594,7 +594,7 @@ def help_handler(message):
     user_rate_input_mode[user_id] = None
     help_text = (
         "ℹ️ **How to use This Bot?**\n\n"
-        "This bot makes it easy to convert text to audio. Here's how it works:\n\n"
+        "This bot makes it easy to convert text to audio. Here's how to use:\n\n"
         "⸻\n"
         "**Convert Text to Audio (TTS):**\n"
         "• **Choose Voice:** Use `/voice` to select the language and voice you want,\n"
@@ -603,8 +603,8 @@ def help_handler(message):
         "  • Use `/pitch` to increase or decrease the pitch,\n"
         "  • Use `/rate` to speed up or slow down the speech,\n\n"
         "⸻\n"
-        "❔ Questions or problems? Contact @kookabeela\n\n"
-        "Enjoy @TextToSpeechBBot! ✨"
+        "Questions or problems? ☎️ Contact @kookabeela\n\n"
+        "Other useful bot: @MediaToTextBot"
     )
     bot.send_message(message.chat.id, help_text, parse_mode="Markdown")
 
