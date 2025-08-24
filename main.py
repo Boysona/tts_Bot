@@ -474,7 +474,7 @@ async def process_stt_media(chat_id: int, user_id_for_settings: str, message_typ
     except Exception as e:
         logging.exception(f"Unhandled error during STT processing: {e}")
         try:
-            target_bot.send_message(chat_id, "❌ An error occurred while processing your file. Please try again or send a clearer file.", reply_to_message_id=original_message_id)
+            target_bot.send_message(chat_id, "⚠️ The file is too large. Please send one smaller than 20MB, or upload it to Google Drive and then send me the link.", reply_to_message_id=original_message_id)
         except Exception:
             pass
     finally:
