@@ -7,7 +7,7 @@ from flask import Flask, request
 # ==========================
 # CONFIG
 # ==========================
-BOT_TOKEN = "Voice to Text Bot - Audio Transcriber"
+BOT_TOKEN = "7770743573:AAGoaSzjKiC4kZeYaF5ioP5ReMC_wy4R7W0"
 WEBHOOK_URL_BASE = "https://tts-bot-1-d7ve.onrender.com"
 WEBHOOK_URL_PATH = f"/{BOT_TOKEN}"
 WEBHOOK_URL = WEBHOOK_URL_BASE + WEBHOOK_URL_PATH
