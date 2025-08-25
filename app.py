@@ -16,7 +16,7 @@ import re
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-TOKEN = "7790991731:AAF4NHGm0BJCf08JTdBaUWKzwfs82_Y9Ecw"
+TOKEN = "7770743573:AAGoaSzjKiC4kZeYaF5ioP5ReMC_wy4R7W0"
 ADMIN_ID = 6964068910
 WEBHOOK_URL = "https://tts-bot-1-d7ve.onrender.com"
 REQUIRED_CHANNEL = "@guruubka_wasmada"
