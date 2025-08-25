@@ -650,7 +650,7 @@ def handle_stt_media_types_common(message, target_bot: telebot.TeleBot, user_id_
         try:
             target_bot.send_message(
                 message.chat.id,
-                "Fadlan dooro luqadda turjumaadda (transcription) adigoo gujinaya badhamada hoose:",
+                "first Choose the transcription language:",
                 reply_markup=build_stt_language_keyboard(),
                 reply_to_message_id=message.message_id
             )
