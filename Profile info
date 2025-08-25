@@ -7,7 +7,7 @@ from flask import Flask, request
 # ==========================
 # CONFIG
 # ==========================
-BOT_TOKEN = "7790991731:AAF4NHGm0BJCf08JTdBaUWKzwfs82_Y9Ecw"
+BOT_TOKEN = "Voice to Text Bot - Audio Transcriber"
 WEBHOOK_URL_BASE = "https://tts-bot-1-d7ve.onrender.com"
 WEBHOOK_URL_PATH = f"/{BOT_TOKEN}"
 WEBHOOK_URL = WEBHOOK_URL_BASE + WEBHOOK_URL_PATH
@@ -34,7 +34,7 @@ def set_bot_info_and_startup():
     global bot_start_time
     bot_start_time = datetime.now()
     try:
-        bot.set_my_name("Media to Text Bot")
+        bot.set_my_name("Voice to Text Bot - Audio Transcriber")
 
         # ✅ Fallback (default English)
         bot.set_my_description(
