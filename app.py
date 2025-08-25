@@ -77,7 +77,7 @@ STT_LANGUAGES = {
 WELCOME_TEMPLATE = (
     " OK send me your media file audio, video, or voice message to Transcribe, Translate & Summarize effortlessly!\n"
     "Upload any media file (voice recordings, audio clips, or videos) up to 20MB.\n"
-    "Ensure the Output Language matches the language of your audio file for accurate transcription.\n"
+    "Ensure the Transcription Language matches the language of your audio file for accurate transcription.\n"
     "Other useful bot: @TextToSpeechBBot\n\n"
     "🌐 Current Language: {lang_name}  My last update: 21/08/2025"
 )
@@ -222,7 +222,7 @@ def start_handler(message):
     if message.chat.type == 'private' and str(message.from_user.id) != str(ADMIN_ID) and not check_subscription(message.from_user.id):
         send_subscription_message(message.chat.id)
         return
-    bot.send_message(message.chat.id, "Choose your Media language:", reply_markup=build_start_language_keyboard())
+    bot.send_message(message.chat.id, "Choose Transcription language:", reply_markup=build_start_language_keyboard())
 
 @bot.message_handler(commands=['admin'])
 def admin_handler(message):
@@ -257,7 +257,7 @@ def start_select_lang_callback(call):
     welcome_text = WELCOME_TEMPLATE.format(lang_name=lang_name)
     markup = InlineKeyboardMarkup()
     markup.add(
-        InlineKeyboardButton("Set Output Language", callback_data="open_set_output_language"),
+        #InlineKeyboardButton("Set Output Language", callback_data="open_set_output_language"),
         InlineKeyboardButton("Add me to a Group!", url="https://t.me/mediatotextbot?startgroup=")
     )
     try:
