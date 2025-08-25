@@ -808,7 +808,7 @@ def set_bot_commands():
         BotCommand("start", "👋 Get Started"),
         BotCommand("lang", "Set STT File language"),
         BotCommand("help", "How to use"),
-        BotCommand("admin", "Admin panel (admin only)")
+        #BotCommand("admin", "Admin panel (admin only)")
     ]
     try:
         bot.set_my_commands(commands)
