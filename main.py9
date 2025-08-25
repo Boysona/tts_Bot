@@ -248,7 +248,7 @@ def build_admin_menu():
 WELCOME_TEMPLATE = (
     " OK sand me Your media file audio video or voice massage Transcribe, translate & summarize effortlessly!\n"
     "Upload any media file (voice recordings, audio clips, or videos) up 20MB in size , in any language.\n\n"
-    "Ensure the Output Language matches the language of your audio file for accurate transcription.\n\n"
+    "Ensure the transcription Language matches the language of your audio file for accurate transcription.\n\n"
     "Other useful bot: @TextToSpeechBBot\n\n"
     "🌐 Current Language: {lang_name}  My last update: 21/08/2025"
 )
@@ -315,7 +315,7 @@ def start_select_lang_callback(call):
     welcome_text = WELCOME_TEMPLATE.format(lang_name=lang_name)
     markup = InlineKeyboardMarkup()
     markup.add(
-        InlineKeyboardButton("Set Output Language", callback_data="open_set_output_language"),
+        InlineKeyboardButton("again Set Language", callback_data="open_set_output_language"),
         InlineKeyboardButton("Add me to a Group!", url="https://t.me/mediatotextbot?startgroup=")
     )
     try:
@@ -342,7 +342,7 @@ def help_handler(message):
         "❓ *How to use*\n\n"
         "• Send an audio message, audio file, or video (up 20MB) and I will transcribe it.\n"
         "• You can also send a Google Drive or direct media link and I'll transcribe it.\n"
-        "• Use /lang or the inline Set Output Language button to choose the transcription language.\n"
+        "• Use /lang or the inline Set again Language button to choose the transcription language.\n"
         "• After transcription you can Translate or Summarize using the inline buttons.\nNeed help? ☎️ Contact: @kookabeela"
     )
     bot.send_message(message.chat.id, help_text, parse_mode="Markdown")
@@ -355,7 +355,7 @@ def send_stt_language_prompt(message):
     if message.chat.type == 'private' and str(message.from_user.id) != str(ADMIN_ID) and not check_subscription(message.from_user.id):
         send_subscription_message(message.chat.id)
         return
-    bot.send_message(chat_id, "🌍 Choose the transcription language:", reply_markup=build_stt_language_keyboard())
+    bot.send_message(chat_id, " Choose the transcription language:", reply_markup=build_stt_language_keyboard())
 
 @bot.callback_query_handler(lambda c: c.data and c.data.startswith("stt_lang|"))
 def on_stt_language_select(call):
