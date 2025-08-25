@@ -8,7 +8,7 @@ import uuid
 
 # Flask & Telegram Config
 app = Flask(__name__)
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_TELEGRAM_BOT_TOKEN")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8136008912:AAHwM1ZBZ2WxgCnFpRA0MC_EIr9KcRQiF3c")
 WEBHOOK_URL = os.getenv("WEBHOOK_URL", "https://your-app.koyeb.app/" + BOT_TOKEN)
 
 bot = telebot.TeleBot(BOT_TOKEN)
