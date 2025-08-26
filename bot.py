@@ -552,7 +552,8 @@ def start_handler(message):
     user_pitch_input_mode[user_id_str] = None
     user_rate_input_mode[user_id_str] = None
     welcome_message = (
-        f"👋 Salaam {user_first_name}! send me a text written in any language, and I will convert it into a high-quality natural voice. Use /voice and choose the person who will read that text. You can find other commands in the Menu"
+        f"👋 Salaam {user_first_name}! I am Text to Speech Bot 🤖 
+Please choose the voice actor you want Before you send the text tap 👉/voice"
     )
     markup = InlineKeyboardMarkup(row_width=1)
     markup.add(
