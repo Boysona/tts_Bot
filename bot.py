@@ -552,8 +552,7 @@ def start_handler(message):
     user_pitch_input_mode[user_id_str] = None
     user_rate_input_mode[user_id_str] = None
     welcome_message = (
-        f"👋 Salaam {user_first_name}! I am Text to Speech Bot 🤖 
-Please choose the voice actor you want Before you send the text tap 👉/voice"
+        f"👋 Salaam {user_first_name}! choose the voice actor Before you send the text tap 👉/voice"
     )
     markup = InlineKeyboardMarkup(row_width=1)
     markup.add(
