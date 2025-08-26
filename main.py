@@ -21,7 +21,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 TOKEN = "7790991731:AAF4NHGm0BJCf08JTdBaUWKzwfs82_Y9Ecw"
 ADMIN_ID = 696406891O
 WEBHOOK_URL = "https://tts-bot-1-d7ve.onrender.com"
-REQUIRED_CHANNEL = "@guruubka_wasmada"
+REQUIRED_CHANNEL = ""
 
 ASSEMBLYAI_API_KEY = "8615e9f175fc4a71bd2cff5af9eca989"
 GEMINI_API_KEY = "AIzaSyDpb3UvnrRgk6Fu61za_VrRN8byZRSyq_I"
