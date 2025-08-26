@@ -1068,8 +1068,8 @@ def on_stt_language_select(call):
     set_stt_user_lang_in_memory(uid, lang_code)
     bot.answer_callback_query(call.id, f"✅ Language set: {lang_name}")
     try:
-        bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text=f"✅ Selected language: *{lang_name}*\n\nSend audio, voice message, or video to transcribe.", parse_mode="Markdown", reply_markup=None)
-    except Exception:
+        #bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text=f"✅ Selected language: *{lang_name}*\n\nSend audio, voice message, or video to transcribe.", parse_mode="Markdown", reply_markup=None)
+    #except Exception:
         #bot.send_message(call.message.chat.id, f"✅  Selected language: *{lang_name}*\n\nSend audio, voice message, or video to transcribe.", parse_mode="Markdown")
 
     # process pending if exists
