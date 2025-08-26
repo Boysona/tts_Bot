@@ -20,7 +20,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # === CONFIG ===
 TOKEN = "7790991731:AAF4NHGm0BJCf08JTdBaUWKzwfs82_Y9Ecw"
 ADMIN_ID = 6964068919
-WEBHOOK_URL = "https://tts-bot-1-d7ve.onrender.com"
+WEBHOOK_URL = "elaborate-mahalia-wwmahe-aa9a1667.koyeb.app/"
 REQUIRED_CHANNEL = ""
 
 ASSEMBLYAI_API_KEY = "8615e9f175fc4a71bd2cff5af9eca989"
