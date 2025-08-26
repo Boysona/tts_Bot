@@ -20,7 +20,7 @@ logging.basicConfig(
 TOKEN = "8281896922:AAEzRdF60SvTMyRba0ev4fzVvdY2ip-DStU"
 ADMIN_ID = 696406891O
 WEBHOOK_URL = "https://tts-bot-lcn9.onrender.com"
-REQUIRED_CHANNEL = "@guruubka_wasmada"
+REQUIRED_CHANNEL = ""
 
 # --- MongoDB Configuration ---
 DB_USER = "lakicalinuur"
