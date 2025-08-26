@@ -18,7 +18,7 @@ logging.basicConfig(
 )
 
 TOKEN = "8281896922:AAEzRdF60SvTMyRba0ev4fzVvdY2ip-DStU"
-ADMIN_ID = 696406891O
+ADMIN_ID = 6964068919
 WEBHOOK_URL = "https://tts-bot-lcn9.onrender.com"
 REQUIRED_CHANNEL = ""
 
