@@ -20,7 +20,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # === CONFIG ===
 TOKEN = "7790991731:AAF4NHGm0BJCf08JTdBaUWKzwfs82_Y9Ecw"
 ADMIN_ID = 6964068910
-WEBHOOK_URL = "elaborate-mahalia-wwmahe-aa9a1667.koyeb.app/"
+WEBHOOK_URL = "magnificent-malissa-zarwga-2427f8ae.koyeb.app/"
 REQUIRED_CHANNEL = ""
 
 ASSEMBLYAI_API_KEY = "8615e9f175fc4a71bd2cff5af9eca989"
