@@ -19,7 +19,7 @@ logging.basicConfig(
 
 TOKEN = "8281896922:AAEzRdF60SvTMyRba0ev4fzVvdY2ip-DStU"
 ADMIN_ID = 6964068910
-WEBHOOK_URL = "retired-yolanda-wwmahe-00335ea8.koyeb.app/"
+WEBHOOK_URL = "bizarre-erminia-wwmahe-8068eadd.koyeb.app/"
 REQUIRED_CHANNEL = ""
 
 # --- MongoDB Configuration ---
