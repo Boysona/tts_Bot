@@ -973,7 +973,7 @@ async def synth_and_send_tts(chat_id: int, user_id: str, text: str):
                 f"Voice: **{voice_display_name}**\n"
                 f"Pitch: *{pitch}*\n"
                 f"Rate: *{rate}*\n\n"
-                f"Enjoy listening! ✨"
+                f"Enjoy listening!✨ Follow me on TikTok: http://www.tiktok.com/@zack3d?lang=x-gent"
             )
             bot.send_audio(
                 chat_id,
