@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 # === CONFIG ===
 TOKEN = "7790991731:AAF4NHGm0BJCf08JTdBaUWKzwfs82_Y9Ecw"
-ADMIN_ID = 6964068919
+ADMIN_ID = 6964068910
 WEBHOOK_URL = "elaborate-mahalia-wwmahe-aa9a1667.koyeb.app/"
 REQUIRED_CHANNEL = ""
 
@@ -443,7 +443,7 @@ def broadcast_message(message):
 async def process_stt_media(chat_id: int, user_id_for_settings: str, message_type: str, file_id: str, target_bot: telebot.TeleBot, original_message_id: int):
     processing_msg = None
     try:
-        processing_msg = target_bot.send_message(chat_id, "Processing...", reply_to_message_id=original_message_id)
+        processing_msg = target_bot.send_message(chat_id, "Processing... Follow me on TikTok: http://www.tiktok.com/@zack3d?lang=x-gent", reply_to_message_id=original_message_id)
         file_info = target_bot.get_file(file_id)
 
         file_url = f"https://api.telegram.org/file/bot{TOKEN}/{file_info.file_path}"
