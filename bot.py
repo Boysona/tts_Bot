@@ -606,7 +606,7 @@ def help_handler(message):
         "  • Use `/pitch` to increase or decrease the pitch,\n"
         "  • Use `/rate` to speed up or slow down the speech,\n\n"
         "⸻\n"
-        "Questions or problems? ☎️ Contact @kookabeela\n\n"
+        "Questions or problems? ☎️ Contact @zack_bots\n\n"
         "Other useful bot: @MediaToTextBot"
     )
     bot.send_message(message.chat.id, help_text, parse_mode="Markdown")
