@@ -370,7 +370,7 @@ def help_handler(message):
         "• Send an audio message, audio file, or video (up 20MB) and I will transcribe it.\n"
         "• You can also send a Google Drive or direct media link and I'll transcribe it.\n"
         "• Use /lang or the inline Set again Language button to choose the transcription language.\n"
-        "• After transcription you can Translate or Summarize using the inline buttons.\nNeed help? ☎️ Contact: @kookabeela"
+        "• After transcription you can Translate or Summarize using the inline buttons.\nNeed help? ☎️ Contact: @zack_bots"
     )
     bot.send_message(message.chat.id, help_text, parse_mode="Markdown")
 
