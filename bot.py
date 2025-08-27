@@ -1091,7 +1091,7 @@ def set_bot_commands():
         BotCommand("voice", "Choose a different voice"),
         BotCommand("pitch", "Change voice pitch"),
         BotCommand("rate", "Change voice speed"),
-        BotCommand("help", "how to use info"),
+        #BotCommand("help", "how to use info"),
     ]
     try:
         bot.set_my_commands(commands)
