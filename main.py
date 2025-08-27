@@ -333,7 +333,7 @@ def start_select_lang_callback(call):
     lang_name = next((name for name, code in STT_LANGUAGES.items() if code == lang_code), "Unknown")
     set_stt_user_lang(uid, lang_code)
     # NOTE: user requested not to send the "Selected language" message — so we do NOT send/edit that text.
-    bot.answer_callback_query(call.id, f"Language set to {lang_name}")
+    bot.answer_callback_query(call.id, f"✅Language set to {lang_name} Now Send file or link")
 
     # Delete the language selection message (remove buttons from chat)
     try:
@@ -391,7 +391,7 @@ def on_stt_language_select(call):
     lang_name = next((name for name, code in STT_LANGUAGES.items() if code == lang_code), "Unknown")
     set_stt_user_lang(uid, lang_code)
     # User requested to not send that specific message, so we only answer the callback.
-    bot.answer_callback_query(call.id, f"✅ Language set: {lang_name}")
+    bot.answer_callback_query(call.id, f"✅ Language set: {lang_name} Now Send file or link")
 
     # Delete the language selection message (remove buttons from chat)
     try:
@@ -512,7 +512,7 @@ async def process_stt_media(chat_id: int, user_id_for_settings: str, message_typ
     except Exception as e:
         logging.exception(f"Unhandled error during STT processing: {e}")
         try:
-            target_bot.send_message(chat_id, "⚠️ The file is too large send one smaller than 20MB, or upload it to Google Drive and then send me the link.", reply_to_message_id=original_message_id)
+            target_bot.send_message(chat_id, "⚠️ The file is too large send one smaller than 20MB, or upload it to Google Drive and then send the link.", reply_to_message_id=original_message_id)
         except Exception:
             pass
     finally:
