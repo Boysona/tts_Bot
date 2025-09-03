@@ -19,7 +19,7 @@ logging.basicConfig(
 
 TOKEN = "8281896922:AAEzRdF60SvTMyRba0ev4fzVvdY2ip-DStU"
 ADMIN_ID = 6964068910
-WEBHOOK_URL = "bizarre-erminia-wwmahe-8068eadd.koyeb.app/"
+WEBHOOK_URL = "https://tts-bot-91ej.onrender.com"
 REQUIRED_CHANNEL = ""
 
 # --- MongoDB Configuration ---
