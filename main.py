@@ -537,13 +537,13 @@ def send_subscription_message(chat_id: int):
         markup = InlineKeyboardMarkup()
         markup.add(
             InlineKeyboardButton(
-                "Click here to join the group",
+                "Click here to join the Channel",
                 url=f"https://t.me/{REQUIRED_CHANNEL.lstrip('@')}"
             )
         )
         bot.send_message(
             chat_id,
-            "🔒 Access Restricted\n\nPlease join our group to use this bot.\n\nJoin and send /start again.",
+            "🔒 Access Locked You cannot use this bot until you join the Channel.",
             reply_markup=markup
         )
     except Exception as e:
