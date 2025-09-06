@@ -618,8 +618,8 @@ def admin_handler(message):
 def make_initial_choice_keyboard():
     markup = InlineKeyboardMarkup(row_width=2)
     markup.add(
-        InlineKeyboardButton("best voices", callback_data="choice|best_voices"),
-        InlineKeyboardButton("Normal voices", callback_data="choice|by_language")
+        InlineKeyboardButton("Best: Multilingual", callback_data="choice|best_voices"),
+        InlineKeyboardButton("Normal: By Lang", callback_data="choice|by_language")
     )
     return markup
 
