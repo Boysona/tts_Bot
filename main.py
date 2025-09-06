@@ -91,9 +91,9 @@ TTS_VOICES_BY_LANGUAGE = {
         "en-AU-WilliamMultilingualNeural", "en-AU-NatashaNeural", "en-CA-ClaraNeural",
         "en-GB-LibbyNeural", "en-GB-MaisieNeural", "en-US-AvaNeural", "en-US-AndrewNeural",
         # --- Add HD Latest English personas ---
-        "en-US-Andrew:DragonHDLatestNeural", "en-US-Ava:DragonHDLatestNeural", "en-US-Emma:DragonHDLatestNeural",
-        "en-US-Adam:DragonHDLatestNeural", "en-US-Brian:DragonHDLatestNeural", "en-US-Davis:DragonHDLatestNeural",
-        "en-US-Aria:DragonHDLatestNeural", "en-US-Phoebe:DragonHDLatestNeural", "en-US-Serena:DragonHDLatestNeural",
+        "en-US-AndrewDragonHDLatestNeural", "en-US-Ava:DragonHDLatestNeural", "en-US-Emma:DragonHDLatestNeural",
+        "en-US-AdamDragonHDLatestNeural", "en-US-Brian:DragonHDLatestNeural", "en-US-Davis:DragonHDLatestNeural",
+        "en-US-AriaDragonHDLatestNeural", "en-US-Phoebe:DragonHDLatestNeural", "en-US-Serena:DragonHDLatestNeural",
         # You can keep adding HD variants here...
     ],
     "French": ["fr-FR-RemyMultilingualNeural", "fr-FR-VivienneMultilingualNeural", "fr-FR-Remy:DragonHDLatestNeural", "fr-FR-Vivienne:DragonHDLatestNeural"],
