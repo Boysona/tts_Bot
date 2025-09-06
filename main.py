@@ -382,7 +382,6 @@ VOICE_MAPPING = {
     "en-US-LolaMultilingualNeural": "Lola speaks 90+ languages",
     "en-US-NancyMultilingualNeural": "Nancy speaks 90+ languages",
     "en-US-SerenaMultilingualNeural": "Serena speaks 90+ languages",
-    "en-US-RyanMultilingualNeural": "Ryan speaks 90+ languages",
     "en-US-EchoTurboMultilingualNeural": "Echo Turbo speaks 90+ languages",
     "en-US-FableTurboMultilingualNeural": "Fable Turbo speaks 90+ languages",
     "en-US-OnyxTurboMultilingualNeural": "Onyx Turbo speaks 90+ languages",
